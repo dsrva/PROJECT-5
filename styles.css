@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3,
+ul {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    color:#E50043;
+    font-weight: 100;
+}
+
+p {
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: #E50043;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F8BFC7;
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    display: flex;
+    width: 1440px;
+    height: max-content;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+
+
+
+.bar-header {
+    display: flex;
+
+    background: #FFFFFF;
+    color: #E50043;
+
+    width: 100%;
+    height: 140px;
+
+    position: sticky;
+    top: 0px;
+
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu li:last-of-type {
+    margin-right: 0px;
+}
+
+
+
+.hero-block {
+    display: flex;
+    position: relative;
+    margin-top: 140px;
+}
+
+.hero-photo {
+    display: flex;
+    background-image: url("images/evian_origins_logo.png");
+    width: 1440px;
+    height: 950px;
+}
+    
+.hero-title {
+    display: flex;
+    position: absolute;
+    top: 475px;
+    left: 260px;
+}
+
+
+
+
+.pink-box {
+    display: flex;
+    flex-direction: column;
+
+    width: 1040px;
+    height: max-content;
+
+    padding: 25px;
+    margin: 150px auto;
+
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+}
+
+.water-text {
+    display: flex;
+    margin-top: 25px;
+}
+
+
+
+
+.bottles-container {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.wang-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wang-photo {
+    display: flex;
+    background-image: url("images/wang.png");
+    width: 280px;
+    height: 860px;
+    margin-bottom: 50px;
+}
+
+.wang-title {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.lacroix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lacroix-photo {
+    display: flex;
+    background-image: url("images/blue.png");
+    width: 280px;
+    height: 860px;
+    margin-bottom: 50px;
+}
+
+.lacroix-title {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.ferragni-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ferragni-photo {
+    display: flex;
+    background-image: url("images/chiara.png");
+    width: 280px;
+    height: 860px;
+    margin-bottom: 50px;
+}
+
+.ferragni-title {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-photo {
+    display: flex;
+    background-image: url("images/glass.png");
+    width: 100px;
+    height: 220px;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mineral-text {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-direction: column;
+}
+
+
+
+.bar-footer {
+    display: flex;
+    height: 140px;
+    width: 100%;
+    background-color: #F8BFC7;
+}
+
+.footer-content {
+    display: flex;
+    color:#FFFFFF;
+    font-size: 50px;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 50px;
+}
+
+.logo {
+    display: flex;
+    background-image: url("images/logo.png");
+    width: 120px;
+    height: 13px;
+}
