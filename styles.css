@@ -15,9 +15,6 @@ h1 {
     font-weight: 100;
 }
 
-p {
-    font-size: 25px;
-}
 
 ul {
     list-style: none;
@@ -25,7 +22,9 @@ ul {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
+
 
 a:link,
 a:visited {
@@ -37,8 +36,6 @@ a:hover {
     color: #F8BFC7;
     text-decoration: underline;
 }
-
-
 
 
 .container {
@@ -112,7 +109,6 @@ a:hover {
 
 
 
-
 .pink-box {
     display: flex;
     flex-direction: column;
@@ -134,7 +130,6 @@ a:hover {
 
 
 
-
 .bottles-container {
     display: flex;
     width: 1040px;
@@ -143,27 +138,15 @@ a:hover {
 }
 
 
+.bottles-container img {
+    margin-bottom: 50px;
+}
 
 .wang-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.wang-photo {
-    display: flex;
-    background-image: url("images/wang.png");
-    width: 280px;
-    height: 860px;
-    margin-bottom: 50px;
-}
-
-.wang-title {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 
 .lacroix-container {
@@ -172,21 +155,6 @@ a:hover {
     align-items: center;
 }
 
-.lacroix-photo {
-    display: flex;
-    background-image: url("images/blue.png");
-    width: 280px;
-    height: 860px;
-    margin-bottom: 50px;
-}
-
-.lacroix-title {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
 
 .ferragni-container {
     display: flex;
@@ -194,18 +162,6 @@ a:hover {
     align-items: center;
 }
 
-.ferragni-photo {
-    display: flex;
-    background-image: url("images/chiara.png");
-    width: 280px;
-    height: 860px;
-    margin-bottom: 50px;
-}
-
-.ferragni-title {
-    display: flex;
-    flex-direction: column;
-}
 
 
 
@@ -218,17 +174,13 @@ a:hover {
 
 .content-photo {
     display: flex;
-    background-image: url("images/glass.png");
-    width: 100px;
-    height: 220px;
-    margin-left:80px;
-    margin-right:80px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .content-text {
     display: flex;
     flex-direction: column;
-
 }
 
 .mineral-text {
@@ -237,6 +189,7 @@ a:hover {
     margin-bottom: 25px;
     flex-direction: column;
 }
+
 
 
 
@@ -249,19 +202,16 @@ a:hover {
 
 .footer-content {
     display: flex;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 50px;
 
     align-items: center;
     justify-content: space-between;
     width: 100%;
-
     padding: 50px;
 }
 
 .logo {
     display: flex;
-    background-image: url("images/logo.png");
-    width: 120px;
-    height: 13px;
+    margin: 0 auto;
 }
