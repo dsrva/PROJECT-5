@@ -142,21 +142,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.wang-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.lacroix-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.ferragni-container {
+.bottles {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +197,3 @@ a:hover {
     padding: 50px;
 }
 
-.logo {
-    display: flex;
-    margin: 0 auto;
-}
